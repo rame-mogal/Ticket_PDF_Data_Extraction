@@ -1,0 +1,9 @@
+streamlit
+PyMuPDF
+openai
+python-dotenv
+pillow
+numpy
+requests
+pandas
+
