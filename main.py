@@ -9,7 +9,7 @@ import openai
 
 # Load API key from .env
 load_dotenv()
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = st.secrets["OPENAI_API_KEY"]
 
 # Streamlit UI
 st.title("📄Data Extractor (Text-based PDF)")
